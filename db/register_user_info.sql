@@ -1,0 +1,1 @@
+insert into user_info (city, state, user_id) values (${city}, ${state}, ${user_id}) returning *;
